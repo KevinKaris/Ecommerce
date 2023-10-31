@@ -1,0 +1,28 @@
+{
+  "version": "3.4",
+  "release_date": "10/28/2022",
+  "min": "3.0",
+  "migrations": [
+    "Modules/SidebarManager/Database/Migrations/2021_04_20_134831_create_backendmenus_table.php",
+    "Modules/SidebarManager/Database/Migrations/2021_04_20_134911_create_backendmenu_users_table.php",
+    "Modules/GeneralSetting/Database/Migrations/2022_03_14_201529_file_storage_permission_sidebar_to_root.php",
+    "Modules/Seller/Database/Migrations/2022_08_16_133115_min_max_sale_pice_update_to_seller_products_table.php",
+    "database/migrations/2022_08_29_125311_create_cache_table.php",
+    "database/migrations/2022_08_29_125651_create_sessions_table.php",
+    "database/migrations/2022_08_24_164715_create_device_tokens_table.php",
+    "database/migrations/2022_08_25_120510_create_push_notifications_table.php",
+    "Modules/Appearance/Database/Migrations/2022_09_19_102954_add_custom_asset_to_menu_and_permission_table.php",
+    "database/migrations/2022_09_19_192543_create_jobs_table.php",
+    "Modules/GeneralSetting/Database/Migrations/2022_09_21_171230_add_msegat_sms_gateway.php",
+    "Modules/Utilities/Database/Migrations/2022_10_04_190224_remove_visitor_permission_table.php",
+    "Modules/ModuleManager/Database/Migrations/2022_10_03_191831_add_storage_cdn_module_into_modules.php",
+    "Modules/Customer/Database/Migrations/2022_09_30_114309_add_backendmenus_customers_bulkupload_table.php",
+    "Modules/Shipping/Database/Migrations/2022_10_07_185811_add_shipping_amount_multiply_with_qty_to_shipping_configurations_table.php",
+    "Modules/PaymentGateway/Database/Migrations/2022_10_11_151616_create_seller_wise_payment_gateways_table.php",
+    "Modules/GeneralSetting/Database/Migrations/2022_10_12_182627_add_send_digital_file_template_to_email_template_table.php",
+    "Modules/FrontendCMS/Database/Migrations/2022_10_18_102123_add_permission_for_social_link.php",
+    "Modules/FrontendCMS/Database/Migrations/2021_01_03_061303_create_seller_social_links_table.php"
+  ],
+  "url": "https://spondonit.com/contact",
+  "notes": "This is a bug fixing, design improve, new feature added. Minimum amazcart version required 3.0"
+}
